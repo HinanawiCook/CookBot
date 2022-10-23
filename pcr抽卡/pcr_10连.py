@@ -27,15 +27,12 @@ def pcr_pick_ten():
     tenth_pick = np.random.choice([2, 3], p=p_tenth.ravel())
     if tenth_pick == 3:
         three_star_pick = random.choice(three_star_list)
-        three_star_pick_list.append('#' + three_star_pick + '#')
+        three_star_pick_list.append(three_star_pick)
     else:
         two_star_pick = random.choice(two_star_list)
         two_star_pick_list.append(two_star_pick)
-    if len(three_star_pick_list) == 0:
-        result = result + '没抽到！'
-    else:
-        for i in range(len(three_star_pick_list)):
-            result = result + ' ' + three_star_pick_list[i]
+    for i in range(len(three_star_pick_list)):
+        result = result + ' ' + three_star_pick_list[i]
     result = result + '\n' + '二星:'
     for i in range(len(two_star_pick_list)):
         result = result + ' ' + two_star_pick_list[i]
