@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5a3a2dd-8004-47db-bafc-8f94dae64183" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pcr抽卡/pcr_up池.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pcr抽卡/pcr10连.py" beforeDir="false" afterPath="$PROJECT_DIR$/pcr抽卡/pcr_10连.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pcr抽卡/pcr up池.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pcr抽卡/pcr 抽一＃.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
