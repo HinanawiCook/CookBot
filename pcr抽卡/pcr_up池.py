@@ -34,7 +34,7 @@ def pcr_pick_up_300():
             two_star_pick_list.append(two_star_pick)
     for i in range(len(three_star_pick_list)):
         result = result + ' ' + three_star_pick_list[i]
-    result = result + str(len(three_star_pick_list)) + '只！' + '\n' + '二星:' + str(len(two_star_pick_list)) + '只！\n' + '一星' + str(len(one_star_pick_list)) + '只！'
+    result = result + str(len(three_star_pick_list)) + '只！' + '\n' + '二星:' + str(len(two_star_pick_list)) + '只！\n' + '一星:' + str(len(one_star_pick_list)) + '只！'
     print(result)
 
 
