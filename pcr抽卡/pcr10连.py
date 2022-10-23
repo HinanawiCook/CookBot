@@ -49,7 +49,7 @@ def pcr_pick_ten():
         send_group_message(id, result)"""
 
 
-s = '抽卡pcrup'
+s = '抽卡pcrup'  # 当前版本：鬼剑
 if s[0:2] == '抽卡':
     game = s.replace('抽卡', '')
     if 'pcr' in game:
