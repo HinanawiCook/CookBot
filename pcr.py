@@ -8,15 +8,26 @@ if s[0:2] == '抽卡':
         three_star_list = os.listdir('E:/CookBot/resource/pcr/3star')
         two_star_list = os.listdir('E:/CookBot/resource/pcr/2star')
         one_star_list = os.listdir('E:/CookBot/resource/pcr/1star')
-        list_1star = list()
-        list_2star = list()
-        list_3star = list()
+        pick_list = list()
         p_normal = np.array([0.795, 0.18, 0.025])
         p_tenth = np.array([0.975, 0.025])
-        for i in range(10):
-            pick = np.random.choice([1, 2, 3], p=p_normal.ravel())
-            if pick == 1:
+        for i in range(9):
+            normal_pick = np.random.choice([1, 2, 3], p=p_normal.ravel())
+            if normal_pick == 3:
+                three_star_pick = random.choice(three_star_list)
+                pick_list.append(three_star_pick)
+            elif normal_pick == 2:
+                two_star_pick = random.choice(two_star_list)
+                pick_list.append(two_star_pick)
+            elif normal_pick == 1:
                 one_star_pick = random.choice(one_star_list)
-                list_1star.append(one_star_pick)
-        for i in range(len(list_1star)):
-            print(list_1star[i])
+                pick_list.append(one_star_pick)
+        tenth_pick = np.random.choice([2, 3], p=p_tenth.ravel())
+        if tenth_pick == 3:
+            three_star_pick = random.choice(three_star_list)
+            pick_list.append(three_star_pick)
+        elif tenth_pick == 2:
+            two_star_pick = random.choice(two_star_list)
+            pick_list.append(two_star_pick)
+        print('十连！')
+        print(pick_list)
