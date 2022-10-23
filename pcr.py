@@ -43,6 +43,10 @@ def pcr_pick_ten():
     for i in range(len(one_star_pick_list)):
         result = result + ' ' + one_star_pick_list[i]
     print(result)
+    """if to == 'private':
+        send_private_message(id, result)
+    elif to == 'group':
+        send_group_message(id, result)"""
 
 
 s = '抽卡pcrup'
