@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5a3a2dd-8004-47db-bafc-8f94dae64183" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pcr抽卡/pcr抽签.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/原神抽卡/genshin抽卡.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pcr抽卡/pcr_up池.py" beforeDir="false" afterPath="$PROJECT_DIR$/pcr抽卡/pcr_up池.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/原神抽卡/原神抽卡.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pcr抽卡/pcr_up池图片.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +40,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.genshin抽卡">
+  <component name="RunManager" selected="Python.pcr_up池">
     <configuration name="genshin抽卡" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CookBot" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -173,10 +169,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.pcr_up池" />
         <item itemvalue="Python.genshin抽卡" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.pcr抽签" />
-        <item itemvalue="Python.pcr_up池" />
         <item itemvalue="Python.pcr_10连 (1)" />
       </list>
     </recent_temporary>
