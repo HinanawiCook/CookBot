@@ -20,11 +20,13 @@ def pcr_pick_up_300():
         for j in range(9):
             normal_pick = np.random.choice([1, 2, 3, 4], p=p_normal.ravel())
             if normal_pick == 4:
-                three_star_pick_list.append(up_princess)
+                icon_three_star_pick = '[CQ:image,file=file:///E:/CookBot/resource/pcr/up/怜(万圣节)/icon.png]'
+                three_star_pick_list.append(icon_three_star_pick)
                 three_star_pick_number.append(k)
             elif normal_pick == 3:
                 three_star_pick = random.choice(three_star_list)
-                three_star_pick_list.append(three_star_pick)
+                icon_three_star_pick = '[CQ:image,file=file:///E:/CookBot/resource/pcr/3star/' + three_star_pick + '/icon.png]'
+                three_star_pick_list.append(icon_three_star_pick)
                 three_star_pick_number.append(k)
             elif normal_pick == 2:
                 two_star_pick = random.choice(two_star_list)
@@ -35,19 +37,20 @@ def pcr_pick_up_300():
             k += 1
         tenth_pick = np.random.choice([2, 3, 4], p=p_tenth.ravel())
         if tenth_pick == 4:
-            three_star_pick_list.append(up_princess)
+            icon_three_star_pick = '[CQ:image,file=file:///E:/CookBot/resource/pcr/up/怜(万圣节)/icon.png]'
+            three_star_pick_list.append(icon_three_star_pick)
             three_star_pick_number.append(k)
         if tenth_pick == 3:
             three_star_pick = random.choice(three_star_list)
-            three_star_pick_list.append(three_star_pick)
+            icon_three_star_pick = '[CQ:image,file=file:///E:/CookBot/resource/pcr/3star/' + three_star_pick + '/icon.png]'
+            three_star_pick_list.append(icon_three_star_pick)
             three_star_pick_number.append(k)
         else:
-            two_star_pick = random.choice(two_star_list)
-            two_star_pick_list.append(two_star_pick)
+             two_star_pick = random.choice(two_star_list)
+             two_star_pick_list.append(two_star_pick)
         k += 1
     for i in range(len(three_star_pick_list)):
-        result = result + ' ' + three_star_pick_list[i] + str(three_star_pick_number[i])
-    result = result + ' 共' + str(len(three_star_pick_list)) + '只！' + '\n' + '二星:' + str(len(two_star_pick_list)) + '只！\n' + '一星:' + str(len(one_star_pick_list)) + '只！'
+        result = result + ' ' + three_star_pick_list[i]
     print(result)
 
 
